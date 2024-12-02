@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #8B4513, #A9A9A9); /* Marrom e cinza */
+    color: #333;
+  }
+  
+  #game-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  #image-container {
+    width: 100%;
+  }
+  
+  #story-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    background: #5C4033; /* Marrom escuro */
+    color: white;
+  }
+  
+  p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  .choice-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #A0522D; /* Marrom claro */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .choice-btn:hover {
+    background: #6E3E27; /* Tom mais escuro de marrom */
+  }
+  
